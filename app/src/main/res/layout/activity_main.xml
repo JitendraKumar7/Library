@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btnReactiveLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="Reactive Location"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/btnRxLocationPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="RxLocation Picker"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/btnMultiContactPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="Multi Contact Picker"
+        android:textSize="15sp" />
+
+</LinearLayout>
